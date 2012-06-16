@@ -1,4 +1,4 @@
 What-We-Owe
 ===========
 
-A Look at Kenya's Public and Foreign Debt
+A Look at Africa's Public and Foreign Debt
