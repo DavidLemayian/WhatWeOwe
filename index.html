@@ -58,29 +58,5 @@ title: WHAT.We.OWE | Home
 
 <!-- SCRIPTS -->
 
-<script type="text/javascript">
-	window.onload=function(){
-		var debtamount = 16311990000;
-		var myDebtCounter=setInterval(function(){debtCounter()},10);
-		
-		function debtCounter()
-		{
-			debtamount += 1;
-			var debtString = numberWithCommas(debtamount.toString());
-			var debtHtml = "";
-			for (var i = 0; i < debtString.length; i++) {
-				if (debtString.charAt(i)==",") {
-					debtHtml += '<span style="line-height: 50%; vertical-align: bottom; margin-left: -5px;">,</span>\n';
-				} else {
-					debtHtml += '<span class="label label-danger" style="margin-left: -5px;">' + debtString.charAt(i) + '</span>\n';
-				}
-			}
-			$('#debtamount').html(debtHtml);
-		}
-		
-		function numberWithCommas(x) {
-		    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-		}
-	}
-</script>
+<script src="/assets/js/main.js" type="text/javascript"></script>
 

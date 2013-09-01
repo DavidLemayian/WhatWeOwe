@@ -24,11 +24,15 @@
 		<link rel="stylesheet" href="/assets/css/style.css">
 		
 		<script src="/assets/js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 	</head>
 	<body>
 	    <!--[if lt IE 7]>
 	        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	    <![endif]-->
+		
+		<!-- Navbar -->
 		
 		<div class="container">
 			
@@ -45,8 +49,12 @@
 			</div>
 		</div>
 		
+		
 	    <!-- Add your site or application content here -->
 	    {{ content }}
+	    
+	    
+	    <!-- Footer -->
 	    
 	    <footer class="container" style="padding-bottom: 30px;">
 	    	<hr />
@@ -70,16 +78,16 @@
 	    		</div>
 	    	</div>
 	    </footer>
-	
-	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	    
+	    
+	    <!-- SCRIPTS -->
+		    
 	    <script src="/assets/js/plugins.js"></script>
-	    <script src="/assets/js/main.js"></script>
 	    <script src="/assets/js/vendor/holder.js"></script>
 	
 	    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	    <script>
-	        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	        var _gaq=[['_setAccount','UA-30369719-5'],['_trackPageview']];
 	        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 	        g.src='//www.google-analytics.com/ga.js';
 	        s.parentNode.insertBefore(g,s)}(document,'script'));
