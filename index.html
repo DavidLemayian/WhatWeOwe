@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DEBT.COUNTER
+title: WHAT.We.OWE | Home
 ---
 
 <div style="background-color: #428bca; color: #fff; text-align: center; padding: 30px 10px 70px;">
@@ -9,7 +9,7 @@ title: DEBT.COUNTER
 		<h1>
 			<span style="line-height: 50%; vertical-align: bottom; margin-right: 5px;" id="currency">Ksh. </span>
 			<span id="debtamount">
-			{% assign myArray = "0|,|0|0|0|,|0|0|0|,|0|0|0" | split: "|" %}
+			{% assign myArray = "0|,|0|0|0|,|0|0|0|,|0|0|0|,|0|0|0" | split: "|" %}
 			{% for item in myArray %}
 				{% if item == "," %}
 					<span style="line-height: 50%; vertical-align: bottom; margin-left: -5px;">,</span>
@@ -60,7 +60,7 @@ title: DEBT.COUNTER
 
 <script type="text/javascript">
 	window.onload=function(){
-		var debtamount = 7052222760;
+		var debtamount = 1003052222760;
 		var myDebtCounter=setInterval(function(){debtCounter()},10);
 		
 		function debtCounter()

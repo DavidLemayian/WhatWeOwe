@@ -1,0 +1,6 @@
+include:     ['.htaccess']
+timezone:    Africa/Nairobi
+
+port:        4004
+baseurl:     /
+url:         http://localhost:4004

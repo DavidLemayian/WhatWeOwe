@@ -1,0 +1,19 @@
+/*
+ * WHAT.We.OWE CSS STYLSHEET
+ * Author: David Lemayian
+ *
+ */
+ 
+.navbar-nav > li {
+ 	margin-right: 5px;
+ }
+ 	.navbar-nav li:last-child {
+ 	 	margin-right: 0;
+ 	 }
+ 	.fork {
+ 		border-radius: 0;
+ 	}
+ 		.fork:hover {
+ 			color: #285e8e;
+ 		}
+ 
