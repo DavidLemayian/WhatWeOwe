@@ -36,11 +36,29 @@
 		
 		<div class="container">
 			
-			<a href="/" class="navbar-brand" style="padding-left: 0;">
+			<a href="/" class="navbar-brand hidden-xs" style="padding-left: 0;">
 				<h1 class="pull-left" style="padding: 10px 15px; color: #fff; background-color: #428bca;">
 					WHAT.<span style="font-weight: normal;">We</span>.OWE
 				</h1>
 			</a>
+			
+			<div class="visible-xs text-center" style="margin-top: 20px; padding: 15px 0; margin-bottom: 10px;">
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary btn-lg"><b>WHAT.</b>We<b>.OWE</b></button>
+					<button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu text-left" role="menu" style="right: 0; left: auto;">
+						<li><a href="/">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/blog">Blog</a></li>
+						<li class="divider"></li>
+						<li><a href="http://github.com/DavidLemayian/WhatWeOwe" target="_blank"><i class="icon-github"></i> GitHub</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
 			<div class="pull-right">
 				<!-- Desktop -->
 				<ul class="nav navbar-nav visible-lg visible-md" style="padding-top: 40px;">
@@ -52,7 +70,7 @@
 				</ul>
 				
 				<!-- Tablets and Phones -->
-				<div class="visible-sm visible-xs " style="margin-top: 40px;">
+				<div class="visible-sm" style="margin-top: 40px;">
 					<div class="btn-group">
 						<button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">
 							<span class="caret"></span>
