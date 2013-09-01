@@ -40,13 +40,33 @@
 				WHAT.<span style="font-weight: normal;">We</span>.OWE
 			</h1></a>
 			<div class="pull-right">
-				<ul class="nav navbar-nav" style="padding-top: 40px;">
+				<!-- Desktop -->
+				<ul class="nav navbar-nav visible-lg visible-md" style="padding-top: 40px;">
 					<li><a href="/" class="lead">HOME</a></li>
 					<li><a href="/about" class="lead">ABOUT</a></li>
+					<li><a href="/blog" class="lead">BLOG</a></li>
 					<li class="sep"></li>
 					<li><a href="http://github.com/DavidLemayian/WhatWeOwe"  class="btn btn-primary fork">FORK ME ON GITHUB</a></li>
 				</ul>
+				
+				<!-- Tablets and Phones -->
+				<div class="visible-sm visible-xs " style="margin-top: 40px;">
+					<div class="btn-group">
+						<button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" style="right: 0; left: auto;">
+							<li><a href="/">Home</a></li>
+							<li><a href="/about">About</a></li>
+							<li><a href="/blog">Blog</a></li>
+							<li class="divider"></li>
+							<li><a href="http://github.com/DavidLemayian/WhatWeOwe" target="_blank"><i class="icon-github"></i> GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+				
 			</div>
+			
 		</div>
 		
 		
@@ -60,16 +80,19 @@
 	    	<hr />
 	    	<div class="row">
 	    		<div class="col-lg-4">
-	    			<p class="text-muted" style="margin-bottom: 5px;">
+	    			<p class="text-muted" style="margin-bottom: 10px;">
 	    				<a href="/">Home</a> . 
 	    				<a href="/about">About</a>
 	    			</p>
 	    			<p class="text-muted" style="margin-bottom: 0; max-width: 300px; line-height: 100%;"><small>
-	    				<b>DISCLAIMER:</b> The data is sourced from <a href="http://data.worldbank.org/data-catalog/international-debt-statistics" target="_blank">World Bank's data portal</a> and we can not confirm it's accurateness.
+	    				<b>DISCLAIMER:</b> Data being used on this platform is sourced from the <a href="http://treasury.go.ke" target="_blank">Kenya Treasury website</a>.
 	    			</small></p>
 	    		</div>
 	    		<div class="col-lg-4" style="text-align: center;">
-	    			<p class="lead text-muted"><b>WHAT.</b>We<b>.OWE</b></p>
+	    			<p class="lead text-muted" style="margin-bottom: 10px;"><b>WHAT.</b>We<b>.OWE</b></p>
+	    			<p class="text-muted"><a href="http://davidlemayian.com" target="_blank">
+	    				<span class="glyphicon glyphicon-check"></span> Proudly Kenyan</a>
+	    			</p>
 	    		</div>
 	    		<div class="col-lg-4" style="text-align: right;">
 	    			<p class="text-muted" style="margin-bottom: 0;">By <a href="http://davidlemayian.com" target="_blank">David Lemayian</a></p>
@@ -84,6 +107,7 @@
 		    
 	    <script src="/assets/js/plugins.js"></script>
 	    <script src="/assets/js/vendor/holder.js"></script>
+	    <script src="/assets/js/bootstrap.min.js"></script>
 	
 	    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	    <script>
